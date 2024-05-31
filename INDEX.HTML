@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/ESTILO.CSS">
+    <title>Audio</title>
+</head>
+<body>
+    <h1>Reproducion de audio</h1>
+    <script>
+        var meses = new Array("enero" , "febrero" , "marzo" , "abril" , "mayo" , "junio" , "julio" , "agosto" , "septiembre" , "octubre" , "noviembre" , "diciembre");
+        var f=new Date();
+        document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+    </script> <br>
+
+    <audio src="assets/y2mate.com - Milo J Fruto Music Video Prod Bizarrap.mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="assets/y2mate.com - Milo J Fruto Music Video Prod Bizarrap.mp3" ></audio><br>
+    <audio src="assets/y2mate.com - Kidd Keo Foreign.mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="assets/y2mate.com - Kidd Keo Foreign.mp3" ></audio><br>
+    <audio src="assets/y2mate.com - BESAME REMIX BHAVI SEVEN KAYNE MILO J TIAGO PZK KHEA NEO PISTEA.mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="assets/y2mate.com - BESAME REMIX BHAVI SEVEN KAYNE MILO J TIAGO PZK KHEA NEO PISTEA.mp3" ></audio><br>
+    <button onclick="document.getElementById('player');">Detener</button>
+
+</body>
+</html>
